@@ -10,7 +10,7 @@ import Projects from "./pages/Projects";
 import Project from "./pages/Project";
 import OwnerLayout from "./features/owner/OwnerLayout";
 import OwnerDashboard from "./pages/OwnerDashboard";
-import FreelancerLayout from "./features/freelancer/freelancerLayout";
+import FreelancerLayout from "./features/freelancer/FreelancerLayout";
 import FreelancerDashboard from "./pages/FreelancerDashboard";
 import Proposals from "./pages/Proposals";
 import SubmittedProjects from "./pages/SubmittedProjects";
