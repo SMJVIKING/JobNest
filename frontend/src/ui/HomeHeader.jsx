@@ -17,7 +17,7 @@ function Header() {
 
           <img
             className="w-10 h-9"
-            src="/public/images/splash_1045684.png"
+            src="/images/splash_1045684.png"
             alt="JobNest image"
           />
           <h1 className="text-xl text-secondary-800 font-bold flex items-center">JobNest</h1>
@@ -51,7 +51,7 @@ function Header() {
           <div className="flex items-center gap-x-2 text-secondary-600 ">
             <img
               className="w-7 h-7 rounded-full object-cover object-center"
-              src="/public/images/3d-simple-user-icon-png.webp"
+              src="/images/3d-simple-user-icon-png.webp"
               alt="user-account"
             />
            <span>{user?.name}</span> 
