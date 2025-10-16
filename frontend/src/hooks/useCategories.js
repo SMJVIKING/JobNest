@@ -1,5 +1,5 @@
 import { useQuery } from "@tanstack/react-query";
-import { getCategoryApi } from "../services/categoryService";
+import { getCategoryApi } from "../services/CategoryService";
 
 export default function useCategories() {
   const { isLoading, data } = useQuery({
@@ -25,4 +25,5 @@ export default function useCategories() {
   }));
 
   return { isLoading, categories, transformedCategories };
+
 }
