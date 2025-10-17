@@ -1,5 +1,5 @@
 import { useState } from "react";
-import RHFSelect from "../../ui/RHFselect";
+import RHFSelect from "../../ui/RHFSelect";
 import TextField from "../../ui/TextField";
 import { useForm } from "react-hook-form";
 import { TagsInput } from 'react-tag-input-component';
@@ -11,7 +11,7 @@ import useEditProject from "./useEditProject";
 
 function CreateProjectForm({ onClose, projectToEdit = {} }) {
     // edit project :
-    const { isEditing, editProject } = useEditProject();
+    const { editProject } = useEditProject();
     const { _id: editId } = projectToEdit;
     const isEditSession = Boolean(editId);
 
