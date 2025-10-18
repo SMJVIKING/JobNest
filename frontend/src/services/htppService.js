@@ -4,7 +4,7 @@ import axios from "axios";
 // => send them to backend => we get our user => and we can understand who(user/admin/..) do what?
 
 
-const BASE_URL = "http://localhost:5000/api";
+const BASE_URL = "https://job-nest-beta.vercel.app/";
 
 // ایجاد یسری کانفیگ های کلی:
 const app = axios.create({
@@ -76,3 +76,4 @@ export default http;
 // .create =>   این متد کمک میکنه ک ما اکسیوس مربوط ب خودمون رو بسازیم
 
 // app.interceptors.request.use(); => دو تا کال بک فانکشن میگیره
+
