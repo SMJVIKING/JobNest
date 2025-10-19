@@ -3,14 +3,14 @@ import axios from "axios";
 // get otp => check otp => if it's a real user? => create a refresh and a access token 
 // => send them to backend => we get our user => and we can understand who(user/admin/..) do what?
 
-
 const BASE_URL = "https://job-nest-beta.vercel.app/";
 
 // ایجاد یسری کانفیگ های کلی:
 const app = axios.create({
-  baseURL: BASE_URL,
+  baseURL: import.meta.env.VITE_BASE_URL,
   withCredentials: true,
 });
+
 //----------------------------------------------------------------------------------------
 // این بخش مربوط ب رفرش و اکسس توکنه:
 
