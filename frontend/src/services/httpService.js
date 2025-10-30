@@ -3,7 +3,7 @@ import axios from "axios";
 // get otp => check otp => if it's a real user? => create a refresh and a access token 
 // => send them to backend => we get our user => and we can understand who(user/admin/..) do what?
 
-const BASE_URL = "https://job-nest-chi.vercel.app/api";
+const BASE_URL = "https://job-nest-chi.vercel.app";
 
 // ایجاد یسری کانفیگ های کلی:
 const app = axios.create({
@@ -74,5 +74,6 @@ const http = {
 export default http;
 
 // .create =>   این متد کمک میکنه ک ما اکسیوس مربوط ب خودمون رو بسازیم
+
 
 // app.interceptors.request.use(); => دو تا کال بک فانکشن میگیره
