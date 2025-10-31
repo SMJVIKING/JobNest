@@ -37,7 +37,7 @@ class Application {
   }
   configServer() {
     this.#app.use(cors({
-      origin: "https://jobnest-dpd.pages.dev",
+       origin: ["http://localhost:5173", "https://jobnest-dpd.pages.dev"],
       credentials: true,
     }));
     // this.#app.use(
