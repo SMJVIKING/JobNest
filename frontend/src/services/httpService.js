@@ -75,4 +75,6 @@ export default http;
 
 // .create =>   این متد کمک میکنه ک ما اکسیوس مربوط ب خودمون رو بسازیم
 
+
 // app.interceptors.request.use(); => دو تا کال بک فانکشن میگیره
+
