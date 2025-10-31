@@ -1,4 +1,4 @@
-import http from "./htppService";
+import http from "./httpService";
 
 export function getCategoryApi() {
   return http.get("/category/list")

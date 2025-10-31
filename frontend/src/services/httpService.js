@@ -5,7 +5,6 @@ import axios from "axios";
 
 const BASE_URL = "https://job-nest-beta.vercel.app/api";
 
-
 // ایجاد یسری کانفیگ های کلی:
 const app = axios.create({
   baseURL: import.meta.env.VITE_BASE_URL,
@@ -77,4 +76,3 @@ export default http;
 // .create =>   این متد کمک میکنه ک ما اکسیوس مربوط ب خودمون رو بسازیم
 
 // app.interceptors.request.use(); => دو تا کال بک فانکشن میگیره
-

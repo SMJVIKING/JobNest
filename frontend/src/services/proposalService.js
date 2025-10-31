@@ -1,4 +1,4 @@
-import http from "./htppService";
+import http from "./httpService";
 
 export function changeProposalStatusApi({ proposalId, ...data }) { 
   return http
