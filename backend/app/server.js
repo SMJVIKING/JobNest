@@ -36,13 +36,9 @@ class Application {
       .catch((err) => console.log("Failed to connect to MongoDB", err));
   }
   configServer() {
-    this.#app.use(cors({
-       origin: ["http://localhost:5173", "https://jobnest-dpd.pages.dev"],
-      credentials: true,
-    }));
-    // this.#app.use(
-    //   cors({ credentials: true, origin: process.env.ALLOW_CORS_ORIGIN })
-    // );
+    this.#app.use(
+      cors({ credentials: true, origin: process.env.ALLOW_CORS_ORIGIN })
+    );
     this.#app.use(express.json());
     this.#app.use(express.urlencoded({ extended: true }));
     this.#app.use(express.static(path.join(__dirname, "..")));
